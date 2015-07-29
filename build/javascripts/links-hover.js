@@ -14,4 +14,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
         addClassToBodyOnHover(document.getElementById(id), ('hovering-' + id))
     })
 });
-
