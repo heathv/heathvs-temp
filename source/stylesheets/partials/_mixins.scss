@@ -1,6 +1,6 @@
 // mixins.scss
 
-$tablet-width: 799px;
+$tablet-width: 600px;
 
 @mixin tablet {
     @media (max-width: #{$tablet-width}) {

@@ -454,50 +454,71 @@ a {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
+  @media (max-width: 600px) {
+    /* line 50, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .top-wrapper {
+      position: relative;
+      padding-top: 5em; } }
 
-/* line 59, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 61, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 #wrapper {
   width: 830px;
   margin: 0 auto;
   position: relative;
   top: 40%;
   transform: translateY(-60%); }
+  @media (max-width: 600px) {
+    /* line 61, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    #wrapper {
+      top: inherit;
+      transform: none; } }
 
-@media (max-width: 799px) {
-  /* line 68, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+@media (max-width: 600px) {
+  /* line 72, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   #wrapper {
     width: 100%;
     padding: 0 2em 0 2em; } }
-/* line 74, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 78, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .container {
   width: 100%;
   padding: 0 0 0 0;
   color: #6f5fba;
   float: left; }
-  /* line 80, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 84, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .container h1 {
     margin: 0;
     font-weight: 800;
     font-size: 7em; }
-  @media (max-width: 799px) {
-    /* line 86, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  @media (max-width: 600px) {
+    /* line 90, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
     .container h1 {
-      font-size: 5em; } }
-  /* line 88, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+      font-size: 3.2em; } }
+  /* line 92, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .container h3 {
     font-weight: 800;
     font-size: 3.6em; }
-  @media (max-width: 799px) {
-    /* line 93, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  @media (max-width: 600px) {
+    /* line 97, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
     .container h3 {
       font-size: 2.4em;
+      line-height: 150%;
       margin-top: .5em; } }
 
-/* line 98, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 101, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+.line-break {
+  visibility: hidden;
+  display: none; }
+  @media (max-width: 600px) {
+    /* line 101, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .line-break {
+      visibility: visible;
+      display: inline; } }
+
+/* line 108, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .rows {
   width: 100%; }
 
-/* line 103, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 113, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .special {
   color: #28beba;
   cursor: pointer;
@@ -505,30 +526,38 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   text-decoration: none; }
-  /* line 111, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 121, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .special a {
     color: #28beba; }
-  /* line 113, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 123, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .special:hover {
     text-decoration: underline;
     color: #2dd3ce; }
 
-/* line 117, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 127, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .socials {
   display: inline-block;
   margin-top: 50px; }
-  /* line 121, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  @media (max-width: 600px) {
+    /* line 127, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .socials {
+      text-align: center; } }
+  /* line 133, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .socials li {
     display: inline;
     list-style-type: none;
     margin: 0 10px 0 0; }
 
-/* line 129, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 142, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .bump {
   position: relative;
   top: 4px; }
+  @media (max-width: 600px) {
+    /* line 142, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .bump {
+      top: 0; } }
 
-/* line 134, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 149, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .button {
   border: 0 none;
   border-radius: 14px;
@@ -549,11 +578,16 @@ a {
   width: 200px;
   /* auto */
   text-align: center; }
-  /* line 154, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 169, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .button:hover {
     background-color: #7f71c2; }
+  @media (max-width: 600px) {
+    /* line 149, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .button {
+      width: 100%;
+      margin-bottom: .5em; } }
 
-/* line 158, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 174, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .button-resume {
   border: 0 none;
   border-radius: 14px;
@@ -574,11 +608,16 @@ a {
   width: 200px;
   /* auto */
   text-align: center; }
-  /* line 178, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 194, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .button-resume:hover {
     background-color: #2dd3ce; }
+  @media (max-width: 600px) {
+    /* line 174, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .button-resume {
+      width: 100%;
+      margin-bottom: .5em; } }
 
-/* line 182, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 200, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .smallbutton {
   border: 0 none;
   border-radius: 14px;
@@ -591,14 +630,20 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   text-align: center; }
-  /* line 195, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 213, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .smallbutton:hover {
     background-color: #e4e2f1; }
-  /* line 197, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+  /* line 215, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .smallbutton img {
     display: inline-block; }
+  @media (max-width: 600px) {
+    /* line 200, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+    .smallbutton {
+      width: 100%;
+      margin-bottom: 1em;
+      background-color: #e4e2f1; } }
 
-/* line 206, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
+/* line 226, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 p {
   font-size: 1.6em;
   color: #6f5fba; }

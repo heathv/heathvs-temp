@@ -54,6 +54,8 @@ a { text-decoration: none; }
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    
+    @include tablet { position: relative; padding-top: 5em; }
 }
 
 #wrapper {
@@ -62,6 +64,8 @@ a { text-decoration: none; }
     position: relative;
     top: 40%;
     transform: translateY(-60%);
+    
+    @include tablet { top: inherit; transform: none; }
 }
 
 @include tablet {
@@ -76,24 +80,30 @@ a { text-decoration: none; }
     padding: 0 0 0 0;
     color: $brand-color;
     float: left;
-
+        
     h1 {
         margin: 0;
         font-weight: $extrabold;
         font-size: 7em;
     }
 
-    @include tablet { h1 { font-size: 5em; }}
+    @include tablet { h1 { font-size: 3.2em; }}
 
     h3 {
         font-weight: $extrabold;
         font-size: 3.6em;
     }  
 
-    @include tablet { h3 { font-size: 2.4em; margin-top: .5em; }}
+    @include tablet { h3 { font-size: 2.4em; line-height: 150%; margin-top: .5em; }}
 
 }
 
+.line-break { 
+    visibility: hidden; 
+    display: none;
+    
+    @include tablet { visibility: visible; display: inline; }
+}
 
 .rows {
     width: 100%;
@@ -117,11 +127,14 @@ a { text-decoration: none; }
 .socials {
     display: inline-block;  
     margin-top: 50px;
-
+    
+    @include tablet { text-align: center; }
+    
     li { 
         display: inline;
         list-style-type: none;
         margin: 0 10px 0 0;
+        
     }
 }
 
@@ -129,6 +142,8 @@ a { text-decoration: none; }
 .bump {
     position: relative;
     top: 4px;
+    
+    @include tablet { top: 0; }
 }
 
 .button {
@@ -153,6 +168,7 @@ a { text-decoration: none; }
 
     &:hover { background-color: lighten( $brand-color, 5% ); }
 
+    @include tablet { width: 100%; margin-bottom: .5em; }
 }
 
 .button-resume {
@@ -176,6 +192,8 @@ a { text-decoration: none; }
     text-align: center;
 
     &:hover { background-color: lighten( $secondary-color, 5% ); }
+    
+    @include tablet { width: 100%; margin-bottom: .5em; }
 
 }
 
@@ -195,6 +213,8 @@ a { text-decoration: none; }
     &:hover { background-color: darken( $waterleaf, 5% ); }
 
     img { display: inline-block; }
+    
+    @include tablet { width: 100%; margin-bottom: 1em; background-color: darken( $waterleaf, 5% ); }
 
 }
 
