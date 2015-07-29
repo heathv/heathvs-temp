@@ -5,7 +5,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-/* line 12, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 12, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 article,
 aside,
 details,
@@ -22,7 +22,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
  */
-/* line 30, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 30, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 audio,
 canvas,
 video {
@@ -32,7 +32,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 41, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 41, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -40,7 +40,7 @@ audio:not([controls]) {
 /*
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
-/* line 50, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 50, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 [hidden] {
   display: none; }
 
@@ -52,7 +52,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 64, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 64, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -64,7 +64,7 @@ html {
 /*
  * Removes default margin.
  */
-/* line 74, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 74, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 body {
   margin: 0; }
 
@@ -74,14 +74,14 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 86, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 86, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 a:focus {
   outline: thin dotted; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 94, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 a:active,
 a:hover {
   outline: 0; }
@@ -93,21 +93,21 @@ a:hover {
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
-/* line 108, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 108, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 h1 {
   font-size: 2em; }
 
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 116, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 116, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 124, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 124, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 b,
 strong {
   font-weight: bold; }
@@ -115,14 +115,14 @@ strong {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 133, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 133, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 dfn {
   font-style: italic; }
 
 /*
  * Addresses styling not present in IE 8/9.
  */
-/* line 141, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 141, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 mark {
   background: #ff0;
   color: #000; }
@@ -130,7 +130,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-/* line 151, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 151, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 code,
 kbd,
 pre,
@@ -141,7 +141,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 163, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 163, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -150,21 +150,21 @@ pre {
 /*
  * Sets consistent quote types.
  */
-/* line 173, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 173, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 181, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 181, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 small {
   font-size: 80%; }
 
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 189, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 189, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 sub,
 sup {
   font-size: 75%;
@@ -172,11 +172,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 197, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 197, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 sup {
   top: -0.5em; }
 
-/* line 201, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 201, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 sub {
   bottom: -0.25em; }
 
@@ -186,14 +186,14 @@ sub {
 /*
  * Removes border when inside `a` element in IE 8/9.
  */
-/* line 213, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 213, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 img {
   border: 0; }
 
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 221, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 221, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -203,7 +203,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
-/* line 233, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 233, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 figure {
   margin: 0; }
 
@@ -213,7 +213,7 @@ figure {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 245, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 245, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -223,7 +223,7 @@ fieldset {
  * 1. Corrects color not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 256, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 256, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 legend {
   border: 0;
   /* 1 */
@@ -235,7 +235,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-/* line 267, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 267, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 button,
 input,
 select,
@@ -251,7 +251,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 281, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 281, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 button,
 input {
   line-height: normal; }
@@ -263,7 +263,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 294, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 294, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -276,7 +276,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 306, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 306, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 button[disabled],
 input[disabled] {
   cursor: default; }
@@ -285,7 +285,7 @@ input[disabled] {
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-/* line 316, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 316, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -298,7 +298,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 328, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 328, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -311,7 +311,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 340, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 340, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -319,7 +319,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-/* line 349, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 349, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -329,7 +329,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 360, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 360, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 textarea {
   overflow: auto;
   /* 1 */
@@ -342,7 +342,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 373, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/normalize.css */
+/* line 373, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/normalize.css */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -351,7 +351,7 @@ table {
 v2.0 | 20110126
 License: none (public domain)
 */
-/* line 9, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 9, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -373,41 +373,41 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 30, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 30, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 34, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 34, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 body {
   line-height: 1; }
 
-/* line 37, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 37, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 ol, ul {
   list-style: none; }
 
-/* line 40, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 40, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 43, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 43, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 48, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_reset.scss */
+/* line 48, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 3, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 3, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* line 9, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 9, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 body {
   font: normal 10px "proxima-nova", Helvetica, sans-serif;
   color: #545454;
@@ -420,21 +420,21 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 24, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 24, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   body.hovering-name {
     background: url(../../images/corgi.gif) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-  /* line 31, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 31, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   body.hovering-designer {
     background: url(../../images/skills.gif) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-  /* line 38, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 38, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   body.hovering-location {
     background: url(../../images/seattle.gif) no-repeat fixed;
     -webkit-background-size: cover;
@@ -442,59 +442,62 @@ body {
     -o-background-size: cover;
     background-size: cover; }
 
-/* line 47, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 47, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 a {
   text-decoration: none; }
 
-/* line 50, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 50, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .top-wrapper {
   width: 100%;
   height: 100%;
-  position: absolute; }
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
 
-/* line 56, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 59, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 #wrapper {
   width: 830px;
   margin: 0 auto;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
+  top: 40%;
+  transform: translateY(-60%); }
 
 @media (max-width: 799px) {
-  /* line 65, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 68, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   #wrapper {
     width: 100%;
     padding: 0 2em 0 2em; } }
-/* line 71, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 74, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .container {
   width: 100%;
   padding: 0 0 0 0;
   color: #6f5fba;
   float: left; }
-  /* line 77, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 80, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .container h1 {
     margin: 0;
     font-weight: 800;
     font-size: 7em; }
   @media (max-width: 799px) {
-    /* line 83, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+    /* line 86, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
     .container h1 {
       font-size: 5em; } }
-  /* line 85, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 88, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .container h3 {
     font-weight: 800;
     font-size: 3.6em; }
   @media (max-width: 799px) {
-    /* line 90, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+    /* line 93, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
     .container h3 {
       font-size: 2.4em;
       margin-top: .5em; } }
 
-/* line 95, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 98, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .rows {
   width: 100%; }
 
-/* line 100, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 103, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .special {
   color: #28beba;
   cursor: pointer;
@@ -502,30 +505,30 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   text-decoration: none; }
-  /* line 108, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 111, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .special a {
     color: #28beba; }
-  /* line 110, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 113, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .special:hover {
     text-decoration: underline;
     color: #2dd3ce; }
 
-/* line 114, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 117, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .socials {
   display: inline-block;
   margin-top: 50px; }
-  /* line 118, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 121, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .socials li {
     display: inline;
     list-style-type: none;
     margin: 0 10px 0 0; }
 
-/* line 126, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 129, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .bump {
   position: relative;
   top: 4px; }
 
-/* line 131, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 134, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .button {
   border: 0 none;
   border-radius: 14px;
@@ -546,11 +549,11 @@ a {
   width: 200px;
   /* auto */
   text-align: center; }
-  /* line 151, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 154, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .button:hover {
     background-color: #7f71c2; }
 
-/* line 155, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 158, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .button-resume {
   border: 0 none;
   border-radius: 14px;
@@ -571,11 +574,11 @@ a {
   width: 200px;
   /* auto */
   text-align: center; }
-  /* line 175, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 178, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .button-resume:hover {
     background-color: #2dd3ce; }
 
-/* line 179, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 182, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 .smallbutton {
   border: 0 none;
   border-radius: 14px;
@@ -588,14 +591,14 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   text-align: center; }
-  /* line 192, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 195, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .smallbutton:hover {
     background-color: #e4e2f1; }
-  /* line 194, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+  /* line 197, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
   .smallbutton img {
     display: inline-block; }
 
-/* line 203, /Users/hvansingel/Documents/Heath V/Personal Files/dev/source/stylesheets/partials/_base.scss */
+/* line 206, /Users/heathvansingel/dev/heathvs temp/source/stylesheets/partials/_base.scss */
 p {
   font-size: 1.6em;
   color: #6f5fba; }
