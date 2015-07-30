@@ -29,14 +29,14 @@ body {
         background-size: cover;
     }
     &.hovering-designer {
-        background: url(../../images/skills.gif) no-repeat fixed; 
+        background: url(../../images/for-designer.gif) no-repeat fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
     &.hovering-location {
-        background: url(../../images/seattle.gif) no-repeat fixed; 
+        background: url(../../images/for-work.gif) no-repeat fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -59,12 +59,14 @@ a { text-decoration: none; }
 }
 
 #wrapper {
-    width: 830px;
+    width: 860px;
     margin: 0 auto;
     position: relative;
     top: 40%;
     transform: translateY(-60%);
-    
+    padding: 0 2em 0 2em;
+
+    @include laptop { width: 100%; }
     @include tablet { top: inherit; transform: none; }
 }
 
@@ -101,7 +103,8 @@ a { text-decoration: none; }
 .line-break { 
     visibility: hidden; 
     display: none;
-    
+
+    @include laptop { visibility: visible; display: inline; }
     @include tablet { visibility: visible; display: inline; }
 }
 
@@ -112,7 +115,7 @@ a { text-decoration: none; }
 
 .special {
     color: $secondary-color;
-    cursor: pointer;
+    cursor: default;
     transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
@@ -120,7 +123,7 @@ a { text-decoration: none; }
     
     a { color: $secondary-color; }
     
-    &:hover { text-decoration: underline; color: lighten( $secondary-color, 5% ); }
+    &:hover { text-decoration: underline; color: darken( $brand-color, 10% ); }
 }
 
 
